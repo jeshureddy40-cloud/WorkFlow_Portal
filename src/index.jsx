@@ -8,7 +8,7 @@ import './styles/styles.css';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <AppProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <App />
       </BrowserRouter>
     </AppProvider>
