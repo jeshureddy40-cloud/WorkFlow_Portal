@@ -251,6 +251,24 @@ Contributions are welcome! Please follow these guidelines:
 - [ ] Dark mode support
 - [ ] Export/Import functionality
 - [ ] Task comments and history
+
+## 🔧 Troubleshooting
+
+### Port 5173 Already in Use
+If you get an error about port 5173 being in use:
+```bash
+npm run dev -- --port 5174
+```
+
+### Blank Page After Running dev Server
+- Clear browser cache (Ctrl+Shift+Delete)
+- Check browser console for errors (F12)
+- Verify all dependencies installed: `npm install`
+
+### Tasks Not Loading
+- Ensure JavaScript is enabled in browser
+- Check Network tab in DevTools for failed requests
+- Try restarting the dev server
 - [ ] Recurring tasks
 - [ ] Tags and categories
 - [ ] Custom workflows
